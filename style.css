@@ -18,6 +18,12 @@
         margin: 50px 0 0 0;
 }
 
+#reset {
+         margin-left: 88px;
+        position: absolute;
+        margin-top: 70vh;
+        width: 120px;
+}
 #quotes {
            width: 80%;
            height: 60vh;
