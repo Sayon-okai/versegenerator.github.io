@@ -9,6 +9,8 @@
         width: 100%;
         height: 70vh;
         background: url(https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200/https://biblevise.com/wp-content/uploads/divisions-of-the-old-testament.png);
+        background-repeat: no-repeat;
+        background-size: cover;
         border-radius: 25px;
         margin: 5px 0 25px 0;
         
@@ -36,17 +38,18 @@ p {
            font-weight: bolder;
            flex-wrap: wrap;
            font-family: 'Courier New', Courier, monospace;
-           font-size: 2em;
+           font-size: 1.5em;
 }
 
 
 
-@media (max-width: 599px)  {
+@media (max-width: 650px)  {
 
         .row {
                 width: 100%;
                 height: 40vh;
                 background: url(https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_1200/https://biblevise.com/wp-content/uploads/divisions-of-the-old-testament.png);
+                background-position: center;
                 border-radius: 25px;
                 margin: 5px 0 25px 0;
                 
@@ -56,9 +59,9 @@ p {
                    width: 100%;
                    height: 32vh;
                    text-align: center;
-                   padding: 2 0 0 0;
-                   margin: 5 0 20 0;
-                   color: rgb(255, 255, 255);
+                   padding: 15px 0 0 0;
+                   margin: 0 0 20 0;
+                   color: rgb(0, 34, 49);
                    flex-wrap: wrap;
                    font-family: 'Courier New', Courier, monospace;
                    font-size: 1em;
